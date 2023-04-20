@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<h1> Programa juego de adivinación </h1>
+<script >
+
+
+	function saltarlinea() {
+		document.write ("<br>");
+	}
+
+     function imprimir(frase) {
+           document.write (frase);
+           saltarlinea();
+   }
+
+   var numeropensado = Math.round(Math.random ()*10);
+   var mumerolanzado = parseInt(prompt("Ingrese un número entre 0- 10"));
+
+   if (numeropensado == mumerolanzado){
+
+      imprimir ("usted acertó")
+   }
+else{
+
+
+   //if (numeropensado != mumerolanzado){
+      imprimir (" usted erró, el numero numero pensado era  " + numeropensado)
+}
+</script>
