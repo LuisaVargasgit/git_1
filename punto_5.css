@@ -1,0 +1,41 @@
+
+.parrafo{
+    line-height: 33px;
+    color: rgb(7, 1, 6);
+    width: 100spx;
+    height: auto;
+    display: flex;
+}
+.underline_verde{
+    text-decoration: underline;
+    color: green;
+
+}
+
+.letter_rojo{
+    color:red;
+    font-weight: bolder;
+}
+
+.under_over_line{
+     text-decoration: underline overline;
+}
+
+.font_negrita{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.letter_azul{
+    color:blue;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.lettter_under_rojo{
+    color: red;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+
+}

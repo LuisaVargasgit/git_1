@@ -1,0 +1,21 @@
+.p7_nav {
+    background-color: rgb(210, 176, 219);
+}
+
+.p7_nav ul {
+    display: inline-flex;
+}
+
+.p7_nav li {
+    padding: 12px;
+    list-style: none;
+}
+
+.p7_nav li:hover {
+    background-color: rgb(12, 12, 209);
+}
+
+.p7_nav a {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}

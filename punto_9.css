@@ -1,0 +1,29 @@
+/*Propiedades de la tabla*/
+.T {
+    width: 60%;
+    border-collapse: collapse;
+    border-bottom: 2px dashed red;
+    background-color: yellow;
+
+}
+
+/*Bordes de la tabla*/
+table,
+td,
+th {
+    border: 1px dotted black;
+}
+
+/*Estilos de título*/
+.label {
+    color: red;
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+
+}
+
+/*Negrita*/
+.n {
+    font-size: 20px;
+}
